@@ -1,8 +1,19 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1;
 }
+
+header {
+  background-color: #9ddb6b;
+  text-align: center;
+  border-bottom: 5px solid #777777;
+}
+
+.container {
+  margin-bottom: 5%;
+}
+
 
 textarea{
   background: transparent;
@@ -43,7 +54,7 @@ textarea{
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #b6b6b6;
   color: white;
 }
 
