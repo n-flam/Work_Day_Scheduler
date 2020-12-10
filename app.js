@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {});
 
 // load time into the dom 
   setInterval(function(){
@@ -26,10 +26,10 @@ var planWorkday = [
 ];
 
 // Local Storage check  
-// var workEvents = JSON.parse(localStorage.getItem("workDay"));
-// if (workEvents) {
-  // planWorkday = workEvents;
-// }
+var workEvents = JSON.parse(localStorage.getItem("workDay"));
+if (workEvents) {
+  planWorkday = workEvents;
+}
 
 
 // Create rows  
@@ -83,5 +83,3 @@ $(".saveBtn").on("click", function() {
 	// Set local storage  
 	localStorage.setItem("workDay", JSON.stringify(planWorkday));
 });
-
-})
