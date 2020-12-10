@@ -51,7 +51,7 @@ https://n-flam.github.io/Work_Day_Scheduler/index.html
 
 GitHub URL
 
-https://DONT FORGET ME/Third-Party-API-05.git
+https://github.com/n-flam/Work_Day_Scheduler.git
 
 
 ## Mock-Up - Of the result
