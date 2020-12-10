@@ -47,7 +47,7 @@ GIVEN I am using a daily planner to create a schedule:
 
 Deployment URL
 
-https://DONT FORGET ME/index.html
+https://n-flam.github.io/Work_Day_Scheduler/index.html
 
 GitHub URL
 
