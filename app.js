@@ -48,7 +48,7 @@ planWorkday.forEach(function(timeBlock, index) {
 		'</textarea><div class="col-sm col-lg-1 input-group-append"><button class="saveBtn btn-block" type="submit"><i class="far fa-save"></i></button></div></div></div>';
 
 	// Adding rows to container div in html 
-	$(".container").append(row);
+	$("#first").append(row);
 });
 
 // Color rows based on current time  
